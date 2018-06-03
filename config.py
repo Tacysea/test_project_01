@@ -25,7 +25,6 @@ class production_model(Config):
     DEBUG = False
 
 config = {
-
-    'development':development_model,
-    'production':production_model
+    'development': development_model,
+    'production': production_model
 }
